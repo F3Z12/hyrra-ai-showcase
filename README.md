@@ -19,6 +19,20 @@ Hyrra AI provides a local-first, BYOK workflow for the MVP. Using a dedicated Ch
 - **Cover Letter Generation**: Automatically draft context-aware cover letters tailored specifically to the intersection of the job's requirements and the candidate's experience.
 - **Application Tracking**: A built-in Kanban board to track the lifecycle of every application from "Saved" to "Offer".
 
+## Screenshots
+
+### Dashboard
+
+The Hyrra AI dashboard centralizes saved jobs, resumes, match results, AI tools, and application tracking in one workspace.
+
+![Hyrra AI Dashboard](assets/dashboard.png)
+
+### Chrome Extension
+
+The Chrome extension extracts visible job posting text and metadata from live career pages, lets the user review or edit the extracted content, and saves the job directly into Hyrra AI.
+
+![Hyrra AI Chrome Extension](assets/extension.png)
+
 ## System Architecture
 
 The system is decoupled into a frontend presentation layer, a stateless extraction/enrichment backend, and a persistence layer.
